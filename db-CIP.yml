@@ -10,4 +10,4 @@ spec:
   selector:
     app: vprodb
   type: ClusterIP
-  #to access application pod to db not for outside world
+  #to access application pod to db not for outside world not for outside traffic
