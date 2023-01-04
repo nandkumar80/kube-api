@@ -34,8 +34,8 @@ spec:
      nodeSelector:
         zone: us-east-1d
      volumes:
-        - name: vpro-db-data                     #mapp this volume to the pod
-          # This AWS EBS volume must already exist.
+        - name: vpro-db-data                   
+          # This AWS EBS volume must already exist.  #mapp this volume to the pod
           awsElasticBlockStore:
              volumeID: vol-017ef2bd16de92ece
              fsType: ext4      
